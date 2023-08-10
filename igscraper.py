@@ -54,7 +54,8 @@ for post in userPosts:
         file_extension = 'mp4' if postType == 'video' else 'jpg'
 
         download_url = driver.find_element(By.XPATH, f"//meta[@property='og:{meta_property}']").get_attribute('content')
-        urllib.request.urlretrieve(download_url, os.path.join(os.getcwd(), 'downloads', shortcode + '.' + file_extension))
+        # urllib.request.urlretrieve(download_url, os.path.join(os.getcwd(), 'downloads', shortcode + '.' + file_extension))
+        urllib.request.urlretrieve(download_url, 'downloads' + shortcode + '.' + file_extension)
 
 
     time.sleep(5)

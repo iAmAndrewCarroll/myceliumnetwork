@@ -58,3 +58,7 @@ typing_extensions==4.7.1
 urllib3==2.0.3
 watchdog==3.0.0
 yarl==1.9.2
+scrapeops-scrapy==0.5.2
+scrapeops-scrapy-proxy-sdk==1.0
+scrapfly-sdk==0.8.6
+Scrapy==2.9.0

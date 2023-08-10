@@ -12,4 +12,4 @@ Install selenium.
 
 # Usage
 
-python igscraper.py
+python3 igscraper.py
