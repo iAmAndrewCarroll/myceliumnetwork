@@ -1,4 +1,12 @@
-# Instagram Scraper with Scrapfly Integration
+# Source Code
+
+[Instagram Scraper](https://github.com/python-geeks/Automation-scripts/tree/main/instagram_scraper)
+
+### Author
+[Aashutosh Nirwal](https://github.com/AashutoshNirwal)
+
+
+## Instagram Scraper with Scrapfly Integration
 
 This project demonstrates how to ethically scrape and download images and videos from an Instagram profile using Selenium and the Scrapfly library. The scraping process is optimized using headless Chrome and Scrapfly's API for ethical and efficient data extraction.
 
